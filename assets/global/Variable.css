@@ -1,0 +1,10 @@
+:root {
+  /* HOME */
+  /*  COLORS */
+  --maincolor: #161c2d;
+  --linkhovercolor: #fb6d45;
+  --btncolor: #473bf0;
+
+  /* FONTS */
+  --roboto: "Roboto", sans-serif;
+}
