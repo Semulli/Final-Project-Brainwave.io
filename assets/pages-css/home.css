@@ -1,0 +1,81 @@
+body {
+  font-family: var(--roboto);
+
+  color: var(--maincolor);
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 21px;
+  align-items: center;
+  background-color: var(--bgcolor);
+  font-weight: var(--tittle_fweight);
+}
+
+.header_tittle {
+  font-size: 28px;
+  font-family: var(--rubik);
+  line-height: 33.3px;
+}
+
+.nav-list {
+  display: flex;
+
+  font-size: 15px;
+  gap: 21px;
+}
+
+.nav-link:hover {
+  color: var(--linkhovercolor);
+}
+
+.header_link {
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+}
+
+.header_link a {
+  color: var(--maincolor);
+  padding: 7px 2px;
+  transition: all 0.4s;
+}
+
+.header_link a:hover {
+  color: #fff;
+  background-color: var(--linkhovercolor);
+  border-radius: 4px;
+}
+
+.dream-content {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  justify-content: center;
+  padding-top: 56px;
+  background-color: var(--bgcolor);
+  font-weight: var(--tittle_fweight);
+  background-image: url(assets/images/bg.svg);
+}
+
+.dream_info {
+  width: 518px;
+  margin: 0 auto;
+  /* padding-right: 170px; */
+  /* border: 1px solid black; */
+}
+
+.dream_info_tittle {
+  font-size: 60px;
+  /* width: 367px; */
+  line-height: 65px;
+  padding-bottom: 21px;
+}
+
+.dream_info_desc {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 70%;
+}

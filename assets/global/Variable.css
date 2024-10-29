@@ -4,7 +4,12 @@
   --maincolor: #161c2d;
   --linkhovercolor: #fb6d45;
   --btncolor: #473bf0;
+  --bgcolor: #68d5851a;
 
   /* FONTS */
   --roboto: "Roboto", sans-serif;
+  --rubik: "Rubik", sans-serif;
+
+  /* TEXT CONFIGURATIONS */
+  --tittle_fweight: 700;
 }
