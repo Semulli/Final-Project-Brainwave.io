@@ -4,10 +4,12 @@ body {
   color: var(--maincolor);
 }
 
+/* HEADER START */
 .header {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 21px;
+  justify-content: space-around;
+  padding-top: 16px;
+
   align-items: center;
   background-color: var(--bgcolor);
   font-weight: var(--tittle_fweight);
@@ -21,7 +23,7 @@ body {
 
 .nav-list {
   display: flex;
-
+  font-weight: bold;
   font-size: 15px;
   gap: 21px;
 }
@@ -48,11 +50,15 @@ body {
   border-radius: 4px;
 }
 
+/* HEADER END */
+
+/* DREAM START */
+
 .dream-content {
   display: flex;
   align-items: center;
-  gap: 23px;
-  justify-content: center;
+
+  justify-content: space-around;
   padding-top: 56px;
   background-color: var(--bgcolor);
   font-weight: var(--tittle_fweight);
@@ -60,15 +66,17 @@ body {
 }
 
 .dream_info {
-  width: 518px;
+  flex-basis: 25%;
   margin: 0 auto;
-  /* padding-right: 170px; */
-  /* border: 1px solid black; */
+}
+
+.dream_img {
+  display: flex;
+  flex-basis: 40%;
 }
 
 .dream_info_tittle {
   font-size: 60px;
-  /* width: 367px; */
   line-height: 65px;
   padding-bottom: 21px;
 }
@@ -79,3 +87,59 @@ body {
   line-height: 32px;
   opacity: 70%;
 }
+
+/* DREAM END */
+
+/* COMPANY START */
+
+.company-content {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  width: 766px;
+  margin: 0 auto;
+  padding: 115px;
+}
+
+.company_info_tittle {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.company_info_desc {
+  font-size: 19px;
+  line-height: 32px;
+  opacity: var(--textopacity);
+
+  padding-bottom: 60px;
+}
+
+.company_logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+}
+
+.company_logo1,
+.company_logo2 {
+  display: flex;
+  gap: 78px;
+}
+
+/* COMPANY END */
+
+/* CATEGORY START */
+
+.category-content {
+  display: flex;
+
+  background-color: var(--maincolor);
+  color: #fff;
+  padding: 132px 0;
+}
+
+/* CATEGORY END */
