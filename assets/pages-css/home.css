@@ -12,8 +12,15 @@ body {
 
   align-items: center;
   background-color: var(--bgcolor);
+  position: relative;
 }
-
+.wave {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  object-fit: fill;
+}
 .header_tittle {
   font-size: 28px;
   font-family: var(--rubik);
@@ -97,11 +104,13 @@ body {
 .company-content {
   display: flex;
   flex-direction: column;
+  padding: 114px 0 114px 0;
+}
 
+.company_content_info {
   text-align: center;
-  width: 766px;
+  width: 686px;
   margin: 0 auto;
-  padding: 115px;
 }
 
 .company_info_tittle {
@@ -294,6 +303,15 @@ body {
   flex-direction: column;
   gap: 84px;
   padding: 107px 245px 144px 245px;
+  position: relative;
+}
+
+.wave1 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  /* object-fit: fill; */
 }
 
 .featured_up {
@@ -427,8 +445,14 @@ body {
   padding-bottom: 74px;
   line-height: 32px;
 }
-.cards {
-  display: flex;
+
+.card {
+  transition: transform 0.5s ease;
+}
+.card:hover {
+  background-color: #78cc8e1a;
+
+  transform: scale(1.1);
 }
 
 .card-title {
@@ -487,3 +511,74 @@ body {
 }
 
 /* UPDATES END */
+
+/* FOOTER START */
+.footer {
+  display: flex;
+  gap: 101px;
+  background-color: var(--maincolor);
+  color: #fff;
+  padding: 122px 245px;
+}
+
+.footer_left {
+  width: 274px;
+}
+
+.footer_left_tittle {
+  font-size: 28px;
+  font-weight: var(--tittle_fweight);
+  line-height: 33px;
+  padding-bottom: 36px;
+  font-family: var(--rubik);
+}
+
+.footer_left_desc {
+  font-size: 15px;
+  opacity: var(--textopacity);
+  line-height: 26px;
+  padding-bottom: 44px;
+}
+
+.footer_logos {
+  display: flex;
+  gap: 24px;
+}
+
+.twitter {
+  width: 17px;
+  height: 15px;
+  color: #68d585;
+}
+
+.facebook,
+.instagram,
+.linkedin {
+  width: 18px;
+  height: 18px;
+  color: #7d818d;
+}
+
+.footer_right {
+  display: flex;
+  gap: 70px;
+}
+
+.footer_right_tittle {
+  font-size: 15px;
+  line-height: 26px;
+  opacity: var(--textopacity);
+  padding-bottom: 20px;
+}
+
+.footer_item a {
+  color: #fff;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+.footer_item a:hover {
+  color: var(--linkhovercolor);
+}
+
+/* FOOTER END */
