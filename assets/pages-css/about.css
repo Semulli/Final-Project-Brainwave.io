@@ -60,7 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 109px 0 149px 0;
+  padding-top: 149px;
   margin: 0 auto;
   text-align: center;
   gap: 58px;
@@ -90,7 +90,7 @@ body {
 .customer-content {
   display: flex;
   justify-content: space-between;
-  padding: 141px 245px;
+  padding: 141px 245px 86px 245px;
   gap: 121px;
 }
 
@@ -118,3 +118,32 @@ body {
   opacity: var(--textopacity);
 }
 /* Customer end */
+
+/* Coders start */
+.coders-content {
+  display: flex;
+  gap: 95px;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 139px 254px;
+  background-color: var(--bgcolor);
+}
+
+.coder_info_tittle {
+  font-size: 48px;
+  font-weight: var(--tittle_fweight);
+  line-height: 58px;
+  padding-bottom: 39px;
+}
+
+.coder_info_desc1 {
+  padding-bottom: 45px;
+}
+
+.coder_info_desc1,
+.coder_info_desc2 {
+  font-size: 19px;
+  line-height: 32px;
+  opacity: var(--textopacity);
+}
+/* Coders end */
