@@ -60,8 +60,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 149px;
-  margin: 0 auto;
+  padding-top: 109px;
+
   text-align: center;
   gap: 58px;
 }
@@ -147,3 +147,140 @@ body {
   opacity: var(--textopacity);
 }
 /* Coders end */
+
+/* Teams start */
+.teams {
+  display: flex;
+  flex-direction: column;
+  padding: 107px 221px;
+}
+
+.teams-info {
+  margin: 0 auto;
+  padding-bottom: 68px;
+  width: 610px;
+  text-align: center;
+}
+
+.teams_info_tittle {
+  font-size: 48px;
+  font-weight: var(--tittle_fweight);
+  line-height: 58px;
+  padding-bottom: 25px;
+}
+
+.teams_info_desc {
+  font-size: 19px;
+  opacity: var(--textopacity);
+  line-height: 32px;
+}
+
+.team-member {
+  border-radius: 9px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.team-member img {
+  width: 100%;
+  height: auto;
+}
+.team-member h3 {
+  font-size: 21px;
+  font-weight: var(--tittle_fweight);
+  padding-bottom: 4px;
+  margin-top: 32px;
+}
+.team-member p {
+  font-size: 17px;
+  line-height: 26px;
+  opacity: var(--textopacity);
+  margin-bottom: 15px;
+}
+/* Teams end */
+
+/* FOOTER START */
+.footer {
+  display: flex;
+  gap: 101px;
+  background-color: var(--maincolor);
+  color: #fff;
+  padding: 122px 245px;
+}
+
+.footer_left {
+  width: 274px;
+}
+
+.footer_left_tittle {
+  font-size: 28px;
+  font-weight: var(--tittle_fweight);
+  line-height: 33px;
+  padding-bottom: 36px;
+  font-family: var(--rubik);
+}
+
+.footer_left_desc {
+  font-size: 15px;
+  opacity: var(--textopacity);
+  line-height: 26px;
+  padding-bottom: 44px;
+}
+
+.footer_logos {
+  display: flex;
+  gap: 24px;
+}
+
+.footer_logos a {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer_logos a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.twitter {
+  width: 17px;
+  height: 15px;
+  color: #68d585;
+}
+
+.facebook,
+.instagram,
+.linkedin {
+  width: 18px;
+  height: 18px;
+  color: #7d818d;
+}
+
+.footer_right {
+  display: flex;
+  gap: 70px;
+}
+
+.footer_right_tittle {
+  font-size: 15px;
+  line-height: 26px;
+  opacity: var(--textopacity);
+  padding-bottom: 20px;
+}
+
+.footer_item a {
+  color: #fff;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+.footer_item a:hover {
+  color: var(--linkhovercolor);
+}
+
+/* FOOTER END */
