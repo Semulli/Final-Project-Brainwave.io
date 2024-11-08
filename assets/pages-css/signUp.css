@@ -1,0 +1,149 @@
+body {
+  font-family: var(--roboto);
+  color: var(--maincolor);
+}
+
+/* Header start */
+.header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: var(--rubik);
+  text-align: center;
+  padding: 25px 0;
+}
+/* Header end */
+
+/* Section start */
+.signup {
+  background-color: var(--bgcolor);
+  padding: 125px 0 158px 0;
+  margin-bottom: 69px;
+}
+
+.signup-tittle {
+  font-size: 60px;
+  font-weight: var(--tittle_fweight);
+  padding-bottom: 64px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.signup-desc {
+  font-size: 19px;
+  padding-bottom: 55px;
+  line-height: 32px;
+  text-align: center;
+  opacity: var(--textopacity);
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.signup-form {
+  width: 350px;
+  height: 581px;
+  background-color: #fff;
+  padding: 35px 25px;
+  box-shadow: 0px 34px 33px -23px #161c2d21;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: var(--btncolor);
+  margin-top: 70px;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: var(--tittle_fweight);
+}
+
+label {
+  font-size: 15px;
+  font-weight: var(--tittle_fweight);
+}
+
+.form-control {
+  padding: 12px 18px;
+}
+/* Section end */
+
+/* FOOTER START */
+.footer {
+  display: flex;
+  gap: 101px;
+  background-color: var(--maincolor);
+  color: #fff;
+  padding: 122px 245px;
+}
+
+.footer_left {
+  width: 274px;
+}
+
+.footer_left_tittle {
+  font-size: 28px;
+  font-weight: var(--tittle_fweight);
+  line-height: 33px;
+  padding-bottom: 36px;
+  font-family: var(--rubik);
+}
+
+.footer_left_desc {
+  font-size: 15px;
+  opacity: var(--textopacity);
+  line-height: 26px;
+  padding-bottom: 44px;
+}
+
+.footer_logos {
+  display: flex;
+  gap: 24px;
+}
+
+.footer_logos a {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer_logos a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.twitter {
+  width: 17px;
+  height: 15px;
+  color: #68d585;
+}
+
+.facebook,
+.instagram,
+.linkedin {
+  width: 18px;
+  height: 18px;
+  color: #7d818d;
+}
+
+.footer_right {
+  display: flex;
+  gap: 70px;
+}
+
+.footer_right_tittle {
+  font-size: 15px;
+  line-height: 26px;
+  opacity: var(--textopacity);
+  padding-bottom: 20px;
+}
+
+.footer_item a {
+  color: #fff;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+.footer_item a:hover {
+  color: var(--linkhovercolor);
+}
+
+/* FOOTER END */
