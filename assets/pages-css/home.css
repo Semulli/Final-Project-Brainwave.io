@@ -20,11 +20,11 @@ header {
 .wave {
   position: absolute;
   z-index: -1;
-  left: 0;
+  right: 15px;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
   overflow-x: hidden;
-  object-fit: fill;
+  object-fit: cover;
 }
 .header_tittle {
   font-size: 28px;
@@ -323,7 +323,7 @@ header {
 .wave1 {
   position: absolute;
   z-index: -1;
-  left: 0;
+  right: 100px;
   overflow-x: hidden;
   width: 100%;
   bottom: 0;
