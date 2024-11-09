@@ -586,14 +586,21 @@ footer {
 
 .footer_right {
   display: flex;
-  gap: 70px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer_block {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
 
 .footer_right_tittle {
   font-size: 15px;
   line-height: 26px;
   opacity: var(--textopacity);
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .footer_item a {
