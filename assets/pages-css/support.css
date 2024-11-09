@@ -121,7 +121,6 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-left: 25px;
-  /* align-items: center; */
 }
 
 li::marker {
