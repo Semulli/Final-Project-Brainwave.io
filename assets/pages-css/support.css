@@ -189,11 +189,13 @@ li::marker {
 .footer {
   display: flex;
   gap: 101px;
-  background-color: var(--maincolor);
   color: #fff;
   padding: 122px 245px;
 }
 
+footer {
+  background-color: var(--maincolor);
+}
 .footer_left {
   width: 274px;
 }
@@ -218,15 +220,6 @@ li::marker {
   gap: 24px;
 }
 
-.footer_logos a {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.footer_logos a:hover {
-  color: #fff;
-  transform: scale(1.05);
-}
-
 .twitter {
   width: 17px;
   height: 15px;
@@ -243,14 +236,21 @@ li::marker {
 
 .footer_right {
   display: flex;
-  gap: 70px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer_block {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
 
 .footer_right_tittle {
   font-size: 15px;
   line-height: 26px;
   opacity: var(--textopacity);
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .footer_item a {
