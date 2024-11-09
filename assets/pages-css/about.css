@@ -120,13 +120,19 @@ body {
 /* Customer end */
 
 /* Coders start */
+
+.section3 {
+  background-color: var(--bgcolor);
+}
 .coders-content {
   display: flex;
   gap: 95px;
   align-items: center;
-  /* justify-content: center; */
-  padding: 139px 254px;
-  background-color: var(--bgcolor);
+  justify-content: center;
+  padding: 139px 0;
+}
+.coder-info {
+  width: 495px;
 }
 
 .coder_info_tittle {
@@ -209,11 +215,13 @@ body {
 .footer {
   display: flex;
   gap: 101px;
-  background-color: var(--maincolor);
   color: #fff;
   padding: 122px 245px;
 }
 
+footer {
+  background-color: var(--maincolor);
+}
 .footer_left {
   width: 274px;
 }
@@ -238,15 +246,6 @@ body {
   gap: 24px;
 }
 
-.footer_logos a {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.footer_logos a:hover {
-  color: #fff;
-  transform: scale(1.05);
-}
-
 .twitter {
   width: 17px;
   height: 15px;
@@ -263,14 +262,21 @@ body {
 
 .footer_right {
   display: flex;
-  gap: 70px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer_block {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
 
 .footer_right_tittle {
   font-size: 15px;
   line-height: 26px;
   opacity: var(--textopacity);
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .footer_item a {
