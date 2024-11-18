@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1200px) {
+  /** HOME PAGE */
+
+  .dream_img img {
+    display: none;
+  }
+
+  .dream_info {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .dream_info_tittle {
+    font-size: 40px;
+
+    line-height: 45px;
+    padding-bottom: 21px;
+  }
+
+  .dream_info_desc {
+    font-size: 19px;
+    padding-bottom: 30px;
+    line-height: 32px;
+  }
+  .wave {
+    display: none;
+  }
+  .wave1 {
+    display: none;
+  }
+  .section2 {
+    display: none;
+  }
+
+  .featured_jobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .job_left_side {
+    display: none;
+  }
+
+  .featured_down a {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section6 {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  .footer_right {
+    justify-content: flex-start;
+
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  .footer_list {
+    display: flex;
+    gap: 57px;
+    line-height: 10px;
+  }
+}

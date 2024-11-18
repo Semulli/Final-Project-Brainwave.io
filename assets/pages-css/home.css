@@ -78,6 +78,7 @@ header {
 }
 
 .dream_info {
+  display: flex;
   flex-basis: 30%;
   /* margin: 0 auto; */
 }
